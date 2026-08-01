@@ -1,0 +1,17 @@
+generated: '2026-07-21'
+method: searched
+source: https://status.swordhealth.com/
+status_page: https://status.swordhealth.com/
+status_page_platform: Atlassian Statuspage
+components:
+- Enrollment Platform
+- Treatment Platform
+- Mobile API
+- Corporate Website
+- File Exchange Platform
+- AI System
+notes: >-
+  Sword Health publishes an operational status page (Atlassian Statuspage)
+  covering its enrollment, treatment, mobile API, website, file-exchange, and AI
+  systems. No public developer versioning, deprecation, or SLA policy was found
+  because Sword does not operate a public developer API program.

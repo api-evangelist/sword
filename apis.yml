@@ -1,7 +1,19 @@
 aid: sword
 name: Sword
-description: Sword is a company surfaced as a portfolio company of general-catalyst and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sword Health is a digital health company delivering AI-powered virtual care
+  for musculoskeletal (MSK) pain, pelvic health, and injury prevention. Founded
+  in 2015 in Portugal by Virgilio Bento, Sword pairs licensed physical
+  therapists with motion-sensor and computer-vision technology so members can
+  complete clinically supervised physical therapy from home. Its platform spans
+  an enrollment platform, a treatment platform, a mobile application backed by a
+  mobile API, a file-exchange platform for enterprise clients, and an AI care
+  system. Sword serves 1,000+ enterprise and health-plan clients across three
+  continents, is backed by investors including General Catalyst, Khosla
+  Ventures, Founders Fund, and Transformation Capital, and maintains SOC 2 Type
+  2, HITRUST, ISO 13485, HIPAA, GDPR, and Cyber Essentials compliance. Sword
+  does not currently publish a public developer API program; this profile
+  captures its identity, status, security, and compliance surface.
 url: https://raw.githubusercontent.com/api-evangelist/sword/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +21,67 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://swordhealth.com/favicon.ico
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Digital Health
+- Healthcare
+- Physical Therapy
+- Musculoskeletal
+- Telehealth
+- Artificial Intelligence
+- Remote Patient Monitoring
 apis: []
+common:
+- type: Website
+  url: https://swordhealth.com/
+- type: StatusPage
+  url: https://status.swordhealth.com/
+- type: GitHubOrganization
+  url: https://github.com/SWORDHealth
+- type: TrustCenter
+  url: https://trust.swordhealth.com/
+- type: Compliance
+  url: https://trust.swordhealth.com/
+- type: Security
+  url: https://swordhealth.com/security/responsible-disclosure
+- type: VulnerabilityDisclosure
+  url: https://swordhealth.com/security/responsible-disclosure
+- type: PrivacyPolicy
+  url: https://swordhealth.com/legal/privacy-statement
+- type: TermsOfService
+  url: https://swordhealth.com/legal/terms-and-conditions
+- type: Lifecycle
+  url: lifecycle/sword-lifecycle.yml
+- type: TrustCenter
+  name: Trust Center artifact
+  url: security/sword-trust-center.yml
+- type: VulnerabilityDisclosure
+  name: Vulnerability disclosure artifact
+  url: security/sword-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/sword-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1

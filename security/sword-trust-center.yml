@@ -1,0 +1,28 @@
+generated: '2026-07-21'
+method: searched
+probe: false
+url: https://trust.swordhealth.com/
+platform: SafeBase
+certifications:
+- SOC 2 Type 2
+- HITRUST
+- ISO 13485:2016
+- HIPAA
+- HITECH
+- GDPR
+- Cyber Essentials
+- PIPEDA
+documents:
+- Pentest Reports
+- HITRUST compliance documentation
+- SOC 2 Type 2 audit reports
+policies:
+- Information Security Policy
+- Data Classification Policy
+- Data Handling Policy
+- Responsible Disclosure
+risk_profile:
+  data_access_level: Restricted
+  impact_level: Low
+  recovery_time_objective: 12 hours
+source: https://trust.swordhealth.com/
