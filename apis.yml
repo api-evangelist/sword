@@ -58,6 +58,12 @@ tags:
 - Remote Patient Monitoring
 apis: []
 common:
+- type: Blog
+  url: https://swordhealth.com/newsroom
+- type: Support
+  url: https://swordhealth.com/faq
+- type: Login
+  url: https://client-portal.us.swordhealth.com/
 - type: Website
   url: https://swordhealth.com/
 - type: StatusPage
