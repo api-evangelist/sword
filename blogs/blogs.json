@@ -1,0 +1,14 @@
+{
+  "repo": "sword",
+  "feeds": [
+    {
+      "source": "https://raw.githubusercontent.com/api-evangelist/sword/refs/heads/main/apis.yml",
+      "feed_url": "https://raw.githubusercontent.com/api-evangelist/sword/refs/heads/main/apis.yml",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-09-13T13:00:00Z"
+}
