@@ -58,6 +58,10 @@ tags:
 - Remote Patient Monitoring
 apis: []
 common:
+- type: Pricing
+  url: https://sword.com/business/health-plans
+- type: Plans
+  url: plans/sword-plans-pricing.yml
 - type: Blog
   url: https://swordhealth.com/newsroom
 - type: Support
