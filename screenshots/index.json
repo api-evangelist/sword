@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "sword",
+    "captured_at": "2026-10-11T192940",
+    "source_url": "https://swordhealth.com/",
+    "source_type": "Website",
+    "file": "sword-2026-10-11T192940.png",
+    "bytes": 274854,
+    "capture": "playwright-local"
+  }
+]
